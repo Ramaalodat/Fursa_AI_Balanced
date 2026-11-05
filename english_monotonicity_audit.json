@@ -1,0 +1,34 @@
+{
+  "method": "Class-balanced L2 logistic regression, fitted with L-BFGS-B and an ordinal English coefficient constraint",
+  "training_split_only": true,
+  "test_split_reused_in_development": true,
+  "english_mapping": {
+    "Basic": 1,
+    "Intermediate": 2,
+    "Advanced": 3
+  },
+  "coefficient_lower_bound_standardized": 0.06,
+  "feature": "English_Proficiency",
+  "reason": "Documented monotonicity assumption: higher stated English proficiency should never lower model score when all other inputs remain constant",
+  "caution": "Monotonicity is a product/domain assumption, not evidence of causality. Model metrics are retrospective on an already-reused holdout.",
+  "train_rows": 39863,
+  "test_rows": 9966,
+  "threshold": 0.44000000000000006,
+  "optimizer_success": true,
+  "model_comparison": {
+    "original": {
+      "accuracy": 0.7831627533614288,
+      "balanced_accuracy": 0.7395484051722314,
+      "macro_f1": 0.7136971167347699,
+      "roc_auc": 0.8098032795824532,
+      "english_coef_std": -0.0017502440562026694
+    },
+    "monotonic_english": {
+      "accuracy": 0.7842665061208107,
+      "balanced_accuracy": 0.7395985865538341,
+      "macro_f1": 0.7144449598120752,
+      "roc_auc": 0.8097580340744509,
+      "english_coef_std": 0.06
+    }
+  }
+}

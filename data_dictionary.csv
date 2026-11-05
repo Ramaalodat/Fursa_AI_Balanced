@@ -1,0 +1,13 @@
+Feature,Meaning,Role
+CGPA,University grade point average /4,Input
+Attendance_Percentage,Attendance percentage,Input
+Study_Hours_Per_Week,Weekly study hours,Input
+Programming_Skill,Programming skill /10,Input
+Projects_Completed,Completed project count,Input
+Certifications,Certificate count,Input
+Hackathons,Hackathon participation count,Input
+Internships,Internship count,Input
+Leadership_Experience,Leadership experience Yes/No,Input
+Communication_Skills,Communication skill /10,Input
+Teamwork,Teamwork skill /10,Input
+Problem_Solving,Problem solving skill /10,Input

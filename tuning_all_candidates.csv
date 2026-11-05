@@ -1,0 +1,21 @@
+Model,CV Accuracy,CV Std,CV Macro F1,CV Balanced Accuracy,Train Accuracy,Parameters,Train-CV Gap
+LogisticRegression,0.7454910448229354,0.003924718125433245,0.6874866896864914,0.7352576972830897,0.7453655782440952,"{'model': LogisticRegression(max_iter=1000), 'model__C': 1.0, 'model__class_weight': 'balanced'}",-0.000125466578840161
+LogisticRegression,0.7454910448229354,0.003924718125433245,0.6874866896864914,0.7352576972830897,0.7453812615664503,"{'model': LogisticRegression(max_iter=1000), 'model__C': 10.0, 'model__class_weight': 'balanced'}",-0.00010978325648502985
+LogisticRegression,0.7454283115335153,0.004041066011988308,0.6874310061658789,0.7352175100102528,0.7453812615664502,"{'model': LogisticRegression(max_iter=1000), 'model__C': 0.1, 'model__class_weight': 'balanced'}",-4.704996706506037e-05
+RandomForestClassifier,0.749098208964587,0.00340959900673159,0.6896819995022129,0.7350004211404476,0.7697845111508421,"{'model': RandomForestClassifier(max_features=0.8, min_samples_leaf=15, n_jobs=1,
+                       random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 8}",0.020686302186255112
+RandomForestClassifier,0.7604215677049025,0.005499817143578589,0.6951162930478261,0.7308507390190971,0.8049778865154794,"{'model': RandomForestClassifier(max_features=0.8, min_samples_leaf=15, n_jobs=1,
+                       random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 12}",0.04455631881057687
+DecisionTreeClassifier,0.7275493240488066,0.005131299309780163,0.6717714578622446,0.7242271294384142,0.7323641040117939,"{'model': DecisionTreeClassifier(min_samples_leaf=40, random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 4}",0.004814779962987292
+DecisionTreeClassifier,0.7155672657695806,0.007692953380510971,0.6634966607214233,0.7224066795065932,0.7373200338759762,"{'model': DecisionTreeClassifier(min_samples_leaf=40, random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 8}",0.021752768106395592
+LogisticRegression,0.8200809259433518,0.0016674550810830402,0.6777215268573666,0.6526726882810516,0.820410275712807,"{'model': LogisticRegression(max_iter=1000), 'model__C': 0.1, 'model__class_weight': None}",0.00032934976945520056
+LogisticRegression,0.8200495592986418,0.0015752177823142146,0.6776453875907787,0.6526012777156821,0.820441642357517,"{'model': LogisticRegression(max_iter=1000), 'model__C': 1.0, 'model__class_weight': None}",0.00039208305887528105
+LogisticRegression,0.8200495592986418,0.0015752177823142146,0.6776453875907787,0.6526012777156821,0.8204573256798721,"{'model': LogisticRegression(max_iter=1000), 'model__C': 10.0, 'model__class_weight': None}",0.0004077663812303012
+RandomForestClassifier,0.8161600953545999,0.001998131590431037,0.6693034552622571,0.6454868806666949,0.830698535177692,"{'model': RandomForestClassifier(max_features=0.8, min_samples_leaf=15, n_jobs=1,
+                       random_state=42), 'model__class_weight': None, 'model__max_depth': 8}",0.014538439823092109
+KNeighborsClassifier,0.808255700887676,0.0010655429723950363,0.6655154820609331,0.644737974802294,0.8265110881089051,"{'model': KNeighborsClassifier(n_jobs=1), 'model__n_neighbors': 15}",0.018255387221229102
+RandomForestClassifier,0.8139957968696089,0.0023510341208172083,0.6672493076622062,0.6442033144311347,0.8434961262193784,"{'model': RandomForestClassifier(max_features=0.8, min_samples_leaf=15, n_jobs=1,
+                       random_state=42), 'model__class_weight': None, 'model__max_depth': 12}",0.02950032934976954
+DecisionTreeClassifier,0.8109218656880274,0.0014194922993613197,0.6645780847461977,0.642800589510611,0.8219629246259528,"{'model': DecisionTreeClassifier(min_samples_leaf=40, random_state=42), 'model__class_weight': None, 'model__max_depth': 8}",0.011041058937925396
+KNeighborsClassifier,0.8117687650951978,0.001582695123935016,0.6642130434293235,0.6419551630242788,0.8208337254163922,"{'model': KNeighborsClassifier(n_jobs=1), 'model__n_neighbors': 31}",0.009064960321194415
+DecisionTreeClassifier,0.8110786989115774,0.0015544696456653035,0.6582243153804511,0.6373016374012859,0.8136037138107337,"{'model': DecisionTreeClassifier(min_samples_leaf=40, random_state=42), 'model__class_weight': None, 'model__max_depth': 4}",0.0025250148991563526

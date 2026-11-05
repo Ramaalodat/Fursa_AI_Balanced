@@ -1,0 +1,6 @@
+Metric,Before,After
+Records,49829,49829
+Predictor columns,10,12
+Text predictor columns,1,0
+Training records,0,39863
+Test records,0,9966

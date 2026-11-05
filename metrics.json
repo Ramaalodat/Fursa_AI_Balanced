@@ -1,0 +1,18 @@
+{
+  "model": "LogisticRegression",
+  "threshold": 0.44000000000000006,
+  "cv_accuracy": 0.7555706112616681,
+  "nested_balanced_accuracy": 0.7366739635296309,
+  "nested_macro_f1": 0.6945554673334488,
+  "test_accuracy": 0.781591889992974,
+  "balanced_accuracy": 0.7356895861911295,
+  "macro_f1": 0.7108863463119268,
+  "roc_auc": 0.8066613344661024,
+  "brier_score": 0.17498717814561954,
+  "not_placed_recall": 0.6538637402834934,
+  "placed_recall": 0.8175154320987654,
+  "test_rows": 9963,
+  "test_reused": true,
+  "fit_rows": 31881,
+  "threshold_rows": 7971
+}

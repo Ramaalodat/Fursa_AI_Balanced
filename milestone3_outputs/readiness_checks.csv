@@ -1,0 +1,8 @@
+Check,Result
+Training rows,39863
+Test rows,9966
+Numeric predictor columns,12
+Missing training cells,0
+Missing test cells,0
+Overlapping students,0
+Identical predictor rows across splits,5

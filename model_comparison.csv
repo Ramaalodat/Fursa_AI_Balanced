@@ -1,0 +1,6 @@
+Model,CV Accuracy,CV Std,CV Macro F1,CV Balanced Accuracy,Train Accuracy,Parameters,Train-CV Gap
+LogisticRegression,0.7454910448229354,0.003924718125433245,0.6874866896864914,0.7352576972830897,0.7453655782440952,"{'model': LogisticRegression(max_iter=1000), 'model__C': 1.0, 'model__class_weight': 'balanced'}",-0.000125466578840161
+RandomForestClassifier,0.749098208964587,0.00340959900673159,0.6896819995022129,0.7350004211404476,0.7697845111508421,"{'model': RandomForestClassifier(max_features=0.8, min_samples_leaf=15, n_jobs=1,
+                       random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 8}",0.020686302186255112
+DecisionTreeClassifier,0.7275493240488066,0.005131299309780163,0.6717714578622446,0.7242271294384142,0.7323641040117939,"{'model': DecisionTreeClassifier(min_samples_leaf=40, random_state=42), 'model__class_weight': 'balanced', 'model__max_depth': 4}",0.004814779962987292
+KNeighborsClassifier,0.808255700887676,0.0010655429723950363,0.6655154820609331,0.644737974802294,0.8265110881089051,"{'model': KNeighborsClassifier(n_jobs=1), 'model__n_neighbors': 15}",0.018255387221229102
